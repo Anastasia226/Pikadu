@@ -1,8 +1,22 @@
+@font-face {
+  font-family: "SFProDisplay-Regular";
+  src: local("SFProDisplay-Regular"),
+    url("../fonts/SFProDisplay-Regular.woff") format("woff");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "SFProDisplay-Semibold";
+  src: local("SFProDisplay-Semibold"),
+    url("../fonts/SFProDisplay-Semibold.woff") format("woff");
+  font-weight: bold;
+}
+
 * {
   box-sizing: border-box;
 }
 body {
-  font-family: sans-serif;
+  font-family: "SFProDisplay-Regular", sans-serif;
   background: #e5e5e5;
 }
 .header {
@@ -279,6 +293,7 @@ body {
   padding: 23px 25px;
 }
 .card-title {
+  font-family: "SFProDisplay-Semibold", sans-serif;
   margin: 0;
   font-weight: 600;
   font-size: 16px;
@@ -289,6 +304,7 @@ body {
   padding: 22px 40px 20px 25px;
 }
 .card-body-title {
+  font-family: "SFProDisplay-Semibold", sans-serif;
   margin: 0 0 10px;
   font-style: normal;
   font-weight: 600;
