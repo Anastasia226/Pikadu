@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pikadu</title>
+    <title>Pikadu-главная</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/normalize.css">
 </head>
@@ -18,6 +18,7 @@
         <li class="header-menu-item"><a href="#" class="header-menu-link">Горячее</a></li>
         <li class="header-menu-item"><a href="#" class="header-menu-link">Подписки</a></li>
     </ul>
+  
 </nav>
 <div class="input-group search">
     <input type="search" class="search-input" placeholder="Поиск по сайту">
@@ -25,6 +26,11 @@
         <img src="img/search.svg" alt="icon:search" class="search-icon">
     </button>
 </div>
+<a href="#" id="menu-toggle" class="menu-toggle">
+    <span></span>
+    <span></span>
+    <span></span>
+</a>
 </div>
     </header>
     <div class="content">
@@ -302,7 +308,7 @@
                 </div>
             </section>
         </main>
-        <aside class="sidebar">
+        <aside class="sidebar ">
             
             <div class="user">
                 <a href="#" class="user-info">
@@ -340,7 +346,7 @@
                     </li>
                 </ul>
             </nav>
-            <a href="#" class="btn btn-new-post">
+            <a href="index-post.html" class="btn btn-new-post">
                 <svg class="icon icon-fire">
                     <use xlink:href="img/icons.svg#fire"></use>
                 </svg>
@@ -362,5 +368,6 @@
             </a>
         </aside>
     </div>
+    <script src="js/main.js"></script>
 </body>
 </html>
